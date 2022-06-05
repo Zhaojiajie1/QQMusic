@@ -1,0 +1,122 @@
+.root {
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 25.6vw;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.logo {
+    width: 8.8vw;
+    height: 8.8vw;
+    margin-left: 2.3333vw;
+}
+
+.logo img {
+    width: 9.3333vw;
+    height: 8.3333vw;
+}
+
+.top {
+    position: absolute;
+    top: 2.6667vw;
+    width: 100%;
+    height: 14.4vw;
+}
+
+.top span {
+    display: inline-block;
+}
+
+.introduction {
+    width: 58.9333vw;
+    height: 11.2vw;
+}
+
+.introduction-title {
+    margin: 0;
+    font-size: 4.2667vw;
+    font-weight: 400;
+    color: #000;
+}
+
+.introduction-ps {
+    margin: 0;
+    font-size: 3.2vw;
+    color: grey;
+}
+
+.download-title {
+    padding: 2vw 0;
+    text-align: center;
+    width: 22.6667vw;
+    border: solid 1px rgb(199, 186, 186);
+    border-radius: 50px;
+}
+
+.download-title a {
+    color: rgb(88, 82, 82);
+    font-size: 3.2vw;
+}
+
+.header-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.header-bottom a {
+    position: absolute;
+    margin-bottom: 1.333vw;
+    width: 50vw;
+    height: 6vw;
+    bottom: 0;
+    text-align: center;
+    font-size: 4.2667vw;
+    color: rgba(167, 168, 167);
+}
+
+.recommend-link {
+    left: 0;
+}
+
+.rank-link {
+    right: 0;
+}
+
+.re-link-title {
+    width: 100%;
+
+}
+
+.active {
+    color: rgba(34, 213, 156, 1);
+    border-bottom: 4px solid rgba(34, 213, 156, 1);
+}
+
+.ra-link-title {
+    width: 100%;
+}
+
+.search-box {
+    background-color: rgba(255, 255, 255);
+    margin: 1.3vw 4.2667vw;
+    width: 88vw;
+    height: 9vw;
+}
+
+.get-search {
+    text-align: center;
+    outline: none;
+    border: 0;
+    width: 100%;
+    height: 9vw;
+    font-size: 4vw;
+    color: rgb(192, 193, 192);
+}

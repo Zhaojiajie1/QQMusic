@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QQ音乐</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/Recommend.css">
+    <link rel="stylesheet" href="./css/search.css">
+    <link rel="stylesheet" href="./css/rank.css">
+    <link rel="stylesheet" href="./css/icon.css">
+    <link rel="stylesheet" href="./css/bottom.css">
+</head>
+
+<body>
+    <div class="root">
+        <div class="header">
+            <div class="top">
+                <span class="logo"><img src="./imgs/bodyImgs/logo.png"></span>
+                <span class="introduction">
+                    <h2 class="introduction-title">QQ音乐</h2>
+                    <p class="introduction-ps">打开APP收藏下载</p>
+                </span>
+                <span class="download-title"><a href="javascript:void(0)">下载APP</a></span>
+            </div>
+            <div class="header-bottom">
+                <a class="recommend-link">
+                    <span class="re-link-title active" id="recommend">推荐</span>
+                </a>
+                <a class="rank-link">
+                    <span class="ra-link-title" id="rank">排行</span>
+                </a>
+            </div>
+        </div>
+        <div class="search-box">
+            <span class="search-icon"><i class="iconfont icon-search"></i></span>
+            <form>
+                <input type="search" class="get-search" placeholder="搜索">
+            </form>
+            <button class="cancel">取消</button>
+        </div>
+        <div class="main">
+            <div class="RecommendList">
+                <div class="officalMusic-list">
+                    <div class="Music-list-header">
+                        <h2 class="Music-list-title">官方歌单</h2>
+                        <a class="more">
+                            <span class="more-text">更多></span>
+                        </a>
+                    </div>
+                    <ul class="display-box">
+                    </ul>
+                </div>
+                <div class="talentMusic-list">
+                    <div class="Music-list-header">
+                        <h2 class="Music-list-title">达人歌单</h2>
+                        <a class="more">
+                            <span class="more-text">更多></span>
+                        </a>
+                    </div>
+                    <ul class="display-box">
+                    </ul>
+                </div>
+                <div class="special-list">
+                    <div class="Music-list-header">
+                        <h2 class="Music-list-title">专区</h2>
+                        <a class="more">
+                            <span class="more-text">更多></span>
+                        </a>
+                    </div>
+                    <ul class="display-box">
+                    </ul>
+                </div>
+            </div>
+            <div class="SearchPart">
+                <div class="searchDefaultHtml">
+                    <div class="history">
+                        <h2 class="search-title">搜索历史</h2>
+                        <div class="search-content" id="history-search-box">
+                        </div>
+                    </div>
+                    <div class="hot">
+                        <h2 class="search-title">热门搜索</h2>
+                        <div class="search-content" id="hot-search-box">
+                        </div>
+                    </div>
+                </div>
+                <div class="searchHtml">
+                    <ul class="search-song-list">
+                    </ul>
+                </div>
+            </div>
+            <div class="RankPart">
+                <ul class="rank-list">
+                </ul>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="bottom-logo">
+                <img src="./imgs/bodyImgs/bottomLogo.png">
+            </div>
+            <p class="copyright"> Copyright 1998 - 2019 Tencent.All Rights Reserved.</p>
+            <p class="contact">联系电话:0755-86013388 QQ群:55209235</p>
+        </div>
+        <div class="footer">
+            <a class="footer-fixed">
+                <img src="./imgs/bodyImgs/logo.png">
+                <p class="footer-text">安装QQ音乐 发现更多精彩</p>
+            </a>
+        </div>
+    </div>
+    <script src="./js/tool.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/HtmlJump.js"></script>
+    <script src="./js/search.js"></script>
+</body>
+
+</html>

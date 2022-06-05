@@ -1,0 +1,149 @@
+.main {
+    width: 100%;
+    background-color: rgba(250, 250, 250);
+}
+
+.main ::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.officalMusic-list {
+    width: 100%;
+}
+
+.officalMusic-list ::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.Music-list-header {
+    position: relative;
+    margin: 5.3333vw 4.2667vw 2.6667vw 4.2667vw;
+    width: 91.4667vw;
+    height: 8vw;
+}
+
+.Music-list-header ::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.Music-list-title {
+    font-size: 4.2667vw;
+    position: absolute;
+    font-weight: 700;
+}
+
+.more {
+    position: absolute;
+    right: 2.5vw;
+}
+
+.more-text {
+    color: rgb(160, 156, 156);
+    line-height: 15vw;
+}
+
+.display-box {
+    display: flex;
+    overflow: scroll;
+    padding: 2.667vw 1vw;
+    width: 100%;
+    height: 38.4vw;
+}
+
+.display-item {
+    width: 31.2vw;
+    margin: 0 1.667vw;
+    padding-right: 1.667vw;
+}
+
+.display-item-img {
+    float: right;
+    margin: 1.667vw auto;
+    position: relative;
+    width: 29.067vw;
+    height: 29.067vw;
+}
+
+.display-item-img img {
+    border-radius: 1.333vw;
+    width: 29.067vw;
+    height: 29.067vw;
+}
+
+.display-item-cover {
+    float: right;
+    text-align: center;
+    width: 10vw;
+    height: 5.333vw;
+    margin-top: -6vw;
+}
+
+.display-item-cover-count {
+    position: absolute;
+    right: 0.667vw;
+    z-index: 100000;
+    line-height: 2.333vw;
+    font-size: 2.467vw;
+    font-weight: 200;
+    color: rgb(242, 233, 233);
+}
+
+.display-item-title {
+    font-size: 3.133vw;
+    color: rgba(26, 26, 26, 1);
+}
+
+.special-display-item {
+    width: 62.4vw;
+    margin: 0 1.667vw;
+    padding-right: 1.667vw;
+}
+
+.special-display-item-img {
+    float: right;
+    margin: 0 auto;
+    position: relative;
+    width: 60.267vw;
+    height: 33.867vw;
+}
+
+.special-display-item-img img {
+    border-radius: 1.333vw;
+    width: 60.267vw;
+    height: 29.067vw;
+}
+
+.special-display-item-cover {
+    overflow: hidden;
+    position: relative;
+    right: -24px;
+    left: 4.267vw;
+    bottom: 11.6vw;
+    width: 40vw;
+}
+
+.special-display-item-cover img {
+    width: 9.067vw;
+    height: 9.067vw;
+}
+
+.special-display-item-cover-count {
+    position: absolute;
+    right: -20.333vw;
+    bottom: -10px;
+    z-index: 100000;
+    width: 131px;
+    overflow: inherit;
+    height: 48px;
+    text-overflow: ellipsis;
+    line-height: 8.333vw;
+    font-size: 4.267vw;
+    font-weight: 200;
+    color: rgb(237, 231, 231);
+}

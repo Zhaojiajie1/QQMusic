@@ -1,0 +1,56 @@
+.RankPart {
+    width: 100%;
+    /* display: none; */
+}
+
+.rank-list {
+    width: 100%;
+}
+
+.rank-list-item {
+    width: 91.467vw;
+    border-radius: 2.667vw;
+}
+
+.rank-list-text {
+    width: 56.533vw;
+}
+
+.music-list {
+    padding: 0;
+}
+
+.rank-song-list {
+    width: 100%;
+    font-size: 3.2vw;
+}
+
+.rank-list-media {
+    background-color: aqua;
+    position: relative;
+    top: -22.667vw;
+    right: -59.867vw;
+    width: 28.533vw;
+    height: 28.533vw;
+}
+
+.rank-list-media img {
+    width: 28.533vw;
+    height: 28.533vw;
+}
+
+.rank-list-updata {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 2.667vw;
+    color: #fff;
+}
+
+.rank-list-view {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 1.467vw;
+    color: #fff;
+}

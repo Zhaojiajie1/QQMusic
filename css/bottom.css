@@ -1,0 +1,47 @@
+.bottom {
+    margin-top: 10.667vw;
+    text-align: center;
+    width: 100%;
+}
+
+.bottom-logo img {
+    width: 21.333vw;
+    height: 5.867vw;
+}
+
+.bottom p {
+    display: block;
+    text-align: center;
+    margin: 1.333vw auto;
+    font-size: 3.2vw;
+    color: rgba(26, 26, 26, 1);
+}
+
+.footer {
+    padding: 0 4vw;
+    position: fixed;
+    bottom: 4vw;
+    left: 21.667vw;
+    width: 46.667vw;
+    height: 14vw;
+    border-radius: 5.667vw;
+    border: 1px solid rgb(156, 155, 155, 0.2);
+    background-color: rgba(250, 250, 250);
+}
+
+.footer-fixed {
+    display: block;
+    line-height: 18.6667vw;
+}
+
+.footer-fixed img {
+    width: 5.867vw;
+    height: 5.867vw;
+}
+
+.footer-text {
+    font-size: 3.2vw;
+    position: absolute;
+    right: 5.467vw;
+    top: -5.533vw;
+}

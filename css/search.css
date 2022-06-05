@@ -1,0 +1,62 @@
+.cancel {
+    position: absolute;
+    right: 2.333vw;
+    top: 29.333vw;
+    width: 16vw;
+    height: 8vw;
+    border: 0;
+    background-color: #fff;
+    font-size: 3.733vw;
+    font-weight: 700;
+    display: none;
+}
+
+.SearchPart {
+    display: none;
+    width: 100%;
+}
+
+.search-content {
+    width: 100%;
+}
+
+.search-item {
+    display: inline-block;
+    height: 6.4vw;
+    line-height: 6.4vw;
+    margin: 0 2.667vw 2.667vw 0;
+    padding: 0 2.667vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: .12rem;
+    border-radius: 0.24rem;
+    background-color: #fff;
+    font-size: 3.467vw;
+    color: rgb(81, 78, 78);
+}
+
+.searchHtml {
+    width: 100%;
+}
+
+.search-song-list {
+    width: 100%;
+}
+
+.search-song-list-item {
+    width: 91.467vw;
+    padding: -0.1333vw 0;
+}
+
+.search-song-title {
+    line-height: 2.533vw;
+    font-size: 4.267vw;
+    font-weight: 400;
+}
+
+.search-song-artist {
+    margin-top: -1.667vw;
+    font-size: 3.2vw;
+    color: rgba(26, 26, 26, .5);
+    font-weight: 300;
+}
