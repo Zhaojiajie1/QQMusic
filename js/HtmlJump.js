@@ -1,4 +1,3 @@
-
 let recommendList = document.getElementsByClassName("RecommendList")[0];
 let SearchPart = document.getElementsByClassName("SearchPart")[0];
 let RankList = document.getElementsByClassName("RankPart")[0];

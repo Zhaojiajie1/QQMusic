@@ -64,27 +64,27 @@ function InsertToRankList(children, father) {
         let text = item.update_frequence;
         html += `
         <li class="rank-list-item">
-        <div class="rank-list-text">
-            <h2 class="rank-list-title">${title}</h2>
-            <ul class="music-list">
-                <li class="rank-song-list">
-                    <span class="song-content">1.${top[0].title}-${top[0].artist}</span>
-                </li>
-                <li class="rank-song-list">
-                <span class="song-content">2.${top[1].title}-${top[1].artist}</span>
-            </li>
-            <li class="rank-song-list">
-            <span class="song-content">3.${top[2].title}-${top[2].artist}</span>
-        </li>
-            </ul>
+            <div class="rank-list-text">
+                <h2 class="rank-list-title">${title}</h2>
+                <ul class="music-list">
+                    <li class="rank-song-list">
+                        <span class="song-content">1.${top[0].title}-${top[0].artist}</span>
+                    </li>
+                    <li class="rank-song-list">
+                    <   span class="song-content">2.${top[1].title}-${top[1].artist}</>
+                    </li>
+                    <li class="rank-song-list">
+                        <span class="song-content">3.${top[2].title}-${top[2].artist}</span>
+                    </li>
+                </ul>
 
-        </div>
-        <div class="rank-list-media">
-        <img src=${cover}>
-        <span class="rank-list-updata">每${text}更新</span>
-        <span class="rank-list-view">${views}</span>
-    </div>
-    </li>
+            </div>
+            <div class="rank-list-media">
+                <img src=${cover}>
+                <span class="rank-list-updata">每${text}更新</span>
+                <span class="rank-list-view">${views}</span>
+            </div>
+        </li>
     `
     })
     father.innerHTML += html;
@@ -97,3 +97,7 @@ function unique(arr) {
     })
     return res;
 }
+let imgs = document.getElementsByTagName("img");
+imgs.forEach((item) => {
+    imgs.setAttribute("alt", "Loadind...");
+})
